@@ -28,7 +28,7 @@ def create_runnable(eq_code:str, libs:dict):
         }
 
         if not callables:
-            raise ValueError("Keine Funktion im eq_code gefunden.")
+            raise ValueError("No fun for you today...")
 
         func_name = list(callables.keys())[-1]
         func = callables[func_name]
