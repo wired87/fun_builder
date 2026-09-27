@@ -11,7 +11,7 @@ try:
 except Exception as e:
     LIBS= {}
     
-def create_runnable(eq_code, libs):
+def create_runnable(eq_code:str, libs:dict):
     """
     Create runnable based on given code str
     """
